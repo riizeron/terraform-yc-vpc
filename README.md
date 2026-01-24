@@ -100,7 +100,7 @@ graph TD
 
 | Name | Version |
 |------|---------|
-| <a name="provider_yandex"></a> [yandex](#provider\_yandex) | 0.140.1 |
+| <a name="provider_yandex"></a> [yandex](#provider\_yandex) | 0.180.0 |
 
 ## Modules
 
