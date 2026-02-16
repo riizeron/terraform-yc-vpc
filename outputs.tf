@@ -45,3 +45,7 @@ output "s3_private_endpoint_ip" {
   description = "S3 Private Endpoint IP address"
   value       = var.s3_private_endpoint.enable ? yandex_vpc_private_endpoint.object_storage[0].endpoint_address[0].address : null
 }
+
+output "private_rt_id" {
+  value = var.create_nat_gw ? yandex_vpc_route_table.private[0].id : null
+}
